@@ -85,11 +85,11 @@ agent = Agent(
 )
 
 # Interactive Loop
-print("Welcome to the Math Agent! Ask a question or type 'exit'.")
-print("Examples: (+, -, *, /, %, √, GCD, LCM)")
+print("\n📘 Hello! I'm your Math Agent.")
+print("💡 Try operations like: +, -, *, /, %, √ (square root), GCD, LCM")
 
 while True:
-    query = input("\nEnter a mathematical question (or 'exit' to quit): ")
+    query = input("\nEnter a mathematical question or type 'exit' to end the session: ")
     if query.lower() == 'exit':
         print("Goodbye!")
         break
